@@ -6,7 +6,11 @@ function Footer() {
         This is a intern task for The Sparks Foundation
       </p>
       <p className="footer-second-line">Submitted by: Souvik Sen</p>
-      <a href="https://github.com/souvik-22" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/souvik-22/BasicBankingSystem"
+        target="_blank"
+        rel="noreferrer"
+      >
         Github Repository
       </a>
     </div>
