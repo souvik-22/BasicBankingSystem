@@ -1,0 +1,19 @@
+.body-main {
+    height: 500px;
+    left:50%;
+    padding-left: 500px;
+}
+ 
+h2 {
+    margin-top: 20px;
+    color: rgb(39, 120, 242);
+    /* padding-left: 250px; */
+}
+
+.button{
+    padding-left:110px;
+}
+
+.link-btn {
+    margin-right: 20px;
+}

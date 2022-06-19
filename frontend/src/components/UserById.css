@@ -1,0 +1,40 @@
+.userbyid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    min-height: 48vh;
+  }
+  
+  .userbyid-btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .userbyid-btns {
+    margin: 5px;
+  }
+  
+  .user-card-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-card-id,
+  .user-card-name,
+  .user-card-email,
+  .user-card-balance {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    color: blue;
+  }
+  
+  .user-card-amount {
+    color: green;
+  }
