@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px;
@@ -10,19 +9,13 @@
 }
 
 .header-main-line {
-    /* margin-right: 800px; */
-    /* align-items: center; */
     padding-top: 13px;
-    /* font-weight: bold; */
     color: rgb(17, 78, 233);
     font-size: 1.4rem;
 }
 
 .header-ul {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: flex-end; */
-    /* margin-right: 15px; */
 }
 
 ul {

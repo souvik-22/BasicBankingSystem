@@ -9,8 +9,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Alert from "@mui/material/Alert";
 import Select from "@mui/material/Select";
-// import Button from '@mui/material/Button';
-// import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import "./UserById.css";
 
@@ -83,26 +81,15 @@ const UserById = () => {
     }
     if (errored) {
       setMessage("Unable to do transaction");
-      //   this.setState({
-      //     message: "Unable to do transaction",
-      //   });
       return;
     }
     if (response.code === 201) {
-      //   this.setState({
       setmessageStatus(1);
       setMessage(response.message);
-      //     message: response.message,
-      //   });
     } else {
-      //   this.setState({
-      //     messageStatus: 0,
-      //     message: response.message,
-      //   });
       setmessageStatus(0);
       setMessage(response.message);
     }
-    // console.log(response, errored);
   };
 
   const transferMoney = async () => {
@@ -131,11 +118,9 @@ const UserById = () => {
                 Rs. {userData.user.balance}
               </span>
             </div>
-            {/* <Link to="/dotransaction" className="userbyid-btns"> */}
             <Button onClick={handleOpen} variant="contained">
               Send Money
             </Button>
-            {/* </Link> */}
           </div>
         )}
       </div>
@@ -165,9 +150,6 @@ const UserById = () => {
                   {item.name}
                 </MenuItem>
               ))}
-              {/* <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem> */}
             </Select>
           </FormControl>
           <h3>Amount</h3>
@@ -196,12 +178,6 @@ const UserById = () => {
           >
             Transfer Money
           </Button>
-          {/* <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography> */}
         </Box>
       </Modal>
     </>

@@ -7,7 +7,6 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-// import "./AllTransactions.css";
 
 export default class AllTransactions extends Component {
   constructor() {
@@ -36,7 +35,6 @@ export default class AllTransactions extends Component {
       loading: false,
     });
     if (!errored && response) {
-      // console.log(response);
       this.setState({
         data: response,
       });
